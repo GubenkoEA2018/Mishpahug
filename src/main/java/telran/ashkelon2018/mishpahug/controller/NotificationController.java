@@ -32,5 +32,4 @@ public class NotificationController {
 	public Integer countUnreadNotifications(@RequestHeader("Authorization") String token) {
 		return notificationService.countUnreadNotifications(token);
 	}
-
 }
