@@ -32,24 +32,4 @@ public class NotificationController {
 	public Integer countUnreadNotifications(@RequestHeader("Authorization") String token) {
 		return notificationService.countUnreadNotifications(token);
 	}
-	
-	@GetMapping("/message")
-	public String textMessage() {
-		return "Hello World";
-	}
-	
-	@GetMapping("/message")
-	public String textMessage() {
-		return "Hello World";
-	}
-	@GetMapping("/message")
-	public String textMessage() {
-		return "Hello World";
-	}
-	@GetMapping("/message")
-	public String textMessage() {
-		return "Hello World";
-	}
-	
-
 }
