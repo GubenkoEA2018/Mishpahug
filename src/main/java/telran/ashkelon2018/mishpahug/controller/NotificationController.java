@@ -37,5 +37,19 @@ public class NotificationController {
 	public String textMessage() {
 		return "Hello World";
 	}
+	
+	@GetMapping("/message")
+	public String textMessage() {
+		return "Hello World";
+	}
+	@GetMapping("/message")
+	public String textMessage() {
+		return "Hello World";
+	}
+	@GetMapping("/message")
+	public String textMessage() {
+		return "Hello World";
+	}
+	
 
 }
